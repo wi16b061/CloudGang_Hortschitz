@@ -1,0 +1,46 @@
+﻿
+@*{
+    ViewData["Title"] = "ShowFields";
+*@
+@{
+
+}
+
+<h2>Picture Analyze</h2>
+<label>@ViewData["fName"]</label><br />
+<h3>Uploaded Picture:</h3>
+<img src="@ViewData["fileLocation"]" height="100px;" width="100px;"/><br />
+<h3>Azure</h3>
+<label>@ViewData["azureResult"]</label>
+<h3>Amazon AWS</h3>
+<table>
+    <tr>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
+<form method="post" action="/Home/ShowFields" enctype="multipart/form-data">
+    <input type="file" name="pic" /><br />
+    <input type="submit" value="Analyze" />
+</form>
+

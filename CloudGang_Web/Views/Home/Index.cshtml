@@ -1,0 +1,11 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="6000">
+    <h1>Picture Analyze</h1>
+    <form method="post" action="/Home/ShowFields" enctype="multipart/form-data">
+        <input type="file" name="pic"/><br />
+        <input type="submit" value="Analyze" />
+</form>
+</div>
