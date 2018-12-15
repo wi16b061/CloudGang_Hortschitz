@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2050
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CloudGang_AWSLambda", "CloudGang_AWSLambda\CloudGang_AWSLambda.csproj", "{357A969A-ABCE-472E-BE66-D560ED85FDE1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CloudGangClient", "CloudGangClient\CloudGangClient.csproj", "{778FC5BF-A4CE-4E80-AAC5-094A16B77F3D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CloudGang_Web", "CloudGang_Web\CloudGang_Web.csproj", "{36C1A258-B898-47BC-A461-D906C11B48BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{357A969A-ABCE-472E-BE66-D560ED85FDE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{357A969A-ABCE-472E-BE66-D560ED85FDE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{357A969A-ABCE-472E-BE66-D560ED85FDE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{357A969A-ABCE-472E-BE66-D560ED85FDE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{778FC5BF-A4CE-4E80-AAC5-094A16B77F3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{778FC5BF-A4CE-4E80-AAC5-094A16B77F3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{778FC5BF-A4CE-4E80-AAC5-094A16B77F3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{778FC5BF-A4CE-4E80-AAC5-094A16B77F3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36C1A258-B898-47BC-A461-D906C11B48BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36C1A258-B898-47BC-A461-D906C11B48BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36C1A258-B898-47BC-A461-D906C11B48BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36C1A258-B898-47BC-A461-D906C11B48BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C2926CE4-B275-4167-AFA1-77297FE7930C}
+	EndGlobalSection
+EndGlobal
